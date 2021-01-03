@@ -1,0 +1,25 @@
+{
+  "name": "qidag",
+  "version": "1.0.0",
+  "description": "A simple messaging app",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/vineethmaller/qidag-backend.git"
+  },
+  "author": "Vineeth Maller",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/vineethmaller/qidag-backend/issues"
+  },
+  "homepage": "https://github.com/vineethmaller/qidag-backend#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.11.9"
+  }
+}
