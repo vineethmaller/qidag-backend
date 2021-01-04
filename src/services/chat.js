@@ -18,6 +18,14 @@ ChatService.prototype = {
                 callback(false, err);
             callback(true, data);
         })
+    },
+    
+    deleteChatById: async (groupId, callback) => {
+        ChatSchema.remove({ _id: groupId }, (err, data) => {
+            if (err)
+                callback(false, err);
+            callback(true, data);
+        })
     }
 }
 

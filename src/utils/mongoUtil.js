@@ -2,7 +2,7 @@ const mongoose = require('mongoose');
 
 function MongoUtil() {
     this._user = process.env.dbUser || "dbAppUser";
-    this._password = process.env.dbPass || "Password_123";
+    this._password = process.env.dbPass || "PdPAx500nuZZ20k3";
     this._server = "cluster0.mrshg.mongodb.net";
     this._database = "qidag";
     this._options = "retryWrites=true&w=majority";
