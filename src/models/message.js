@@ -1,6 +1,6 @@
-const mongoUtil = require('./../utils/mongoUtil');
+const mongoUtil = require('./../utils/mongoUtil')
 
-const mongoose = mongoUtil.getConnection();
+const mongoose = mongoUtil.getConnection()
 
 const MessageSchema = new mongoose.Schema({
     groupId: String,
@@ -12,6 +12,6 @@ const MessageSchema = new mongoose.Schema({
         data: String
     }],
     dateTime: Date
-});
+})
 
-module.exports = mongoose.model('Message', MessageSchema);
+module.exports = mongoose.model('messages', MessageSchema)
